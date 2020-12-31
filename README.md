@@ -20,3 +20,17 @@ docker run -itd -p 9093:9093 --name alertmanager -v /root/prometheus/alertmanage
 
 ## Grafana
 docker run -d -p 3000:3000 grafana/grafana
+
+# Use
+## Enter Exporter
+- localhost:9100  //node-exporter
+- localhost:8080  //cadvisor
+
+## Enter Prometheus
+localhost:9090
+
+## Enter Alertmanager
+localhost:9093
+
+## Enter Grafana
+localhost:3000
